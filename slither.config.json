@@ -1,0 +1,12 @@
+{
+    "printers_to_run": "function-summary,inheritance-graph",
+    "detectors_to_exclude": "naming-convention",
+    "exclude_informational": false,
+    "exclude_low": false,
+    "exclude_medium": false,
+    "exclude_high": false,
+    "json": "",
+    "disable_color": false,
+    "filter_paths": "(contracts/mocks/|contracts/test/|OpenZeppelin/openzeppelin-contracts)",
+    "legacy_ast": false
+}

@@ -1,0 +1,47 @@
+node_modules/
+.env
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
+.deps
+
+
+# graph and slither files
+*.dot
+
+
+# see what happens when we cache types index
+# see https://stackoverflow.com/questions/5533050/gitignore-exclude-folder-but-include-specific-subfolder
+# !types
+# types/*
+# !types/index.ts
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
